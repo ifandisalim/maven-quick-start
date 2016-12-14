@@ -12,7 +12,7 @@ public class Application {
 
     public int countWords(String words){
       String[] separateWords = StringUtils.split(words, ' ');
-      return (saparateWords == null) ? 0 : separateWords.length;
+      return (separateWords == null) ? 0 : separateWords.length;
     }
 
 
